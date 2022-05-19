@@ -6,7 +6,7 @@ on:
   pull_request:
 jobs:
   build:
-    name: Build-aquasec-supply-chain
+    name: Build
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout code
